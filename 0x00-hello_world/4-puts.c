@@ -1,2 +1,6 @@
 #!/bin/bash
-puts("\"Programming is lie building a multilingual puzzle"); return (0)
+#include<stdio.h>
+int main(void)
+{
+	puts("\"Programming is lie building a multilingual puzzle\n"); return (0);
+}
