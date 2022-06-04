@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - Print numbers between 0 and 9.
+ * main - Print single digit numbers of base 10 between 0 and 9.
  *
- * Return 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
 	int i;
 
-	for (i = 45; i < 56; i++)
+	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
 	}
