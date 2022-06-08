@@ -8,7 +8,11 @@
  */
 int main(void)
 {
-	long int fn1 = 1, fn2 = 2, fn = 0, fne = 0;
+	long int fn1, fn2, fn, fne;
+
+	fn1 = 1;
+	fn2 = 2;
+	fn = fne = 0;
 
 	while (fn <= 4000000)
 	{
