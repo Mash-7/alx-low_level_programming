@@ -21,7 +21,7 @@ int main(void)
 		fn2 = fn;
 		if ((fn1 % 2) == 0)
 		{
-			fn += fn1;
+			fne += fn1;
 		}
 	}
 	printf("%ld\n", fne);
