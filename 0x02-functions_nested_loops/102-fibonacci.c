@@ -12,7 +12,7 @@ int main(void)
 	long int fn1 = 1, fn2 = 2, fn;
 
 	printf("%ld, %ld", fn1, fn2);
-	for (i = 1; i < 50; i++)
+	for (i = 1; i < 49; i++)
 	{
 		fn = fn1 + fn2;
 		printf(", %ld", fn);
