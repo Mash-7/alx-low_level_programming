@@ -8,14 +8,14 @@
  */
 char *leet(char *s)
 {
-	int i = 0, j;
-	int CL[] = {65, 69, 76, 84, 76};
-	int SL[] = {97, 101, 111, 116, 108};
-	int num[] = {52, 51, 48, 55, 49};
+	int i = 0, j = 0;
+	char array_CL[] = {65, 69, 79, 84, 76};
+	char array_SL[] = {97, 101, 111, 116, 108};
+	char array_leet[] = {52, 51, 48, 55, 49iii};
 	
 	while (s[i] != '\0')
 	{
-		for (j = 0; j <= 7; j++)
+		for (j = 0; j < 5; j++)
 		{
 			if (s[i] == SL[i] || s[i] == CL[i])
 			{
