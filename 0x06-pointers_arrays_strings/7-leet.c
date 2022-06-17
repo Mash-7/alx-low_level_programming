@@ -12,10 +12,10 @@ char *leet(char *s)
 	int CL[] = {65, 69, 76, 84, 76};
 	int SL[] = {97, 101, 111, 116, 108};
 	int num[] = {52, 51, 48, 55, 49};
-
+	
 	while (s[i] != '\0')
 	{
-		for (j = 0; j < 5; j++)
+		for (j = 0; j <= 7; j++)
 		{
 			if (s[i] == SL[i] || s[i] == CL[i])
 			{
