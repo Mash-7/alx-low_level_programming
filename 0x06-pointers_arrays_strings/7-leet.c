@@ -8,20 +8,21 @@
  */
 char *leet(char *s)
 {
-	int i = 0, j = 0;
-	char array_CL[] = {65, 69, 79, 84, 76};
-	char array_SL[] = {97, 101, 111, 116, 108};
-	char array_leet[] = {52, 51, 48, 55, 49iii};
-	
+	int i, j;
+	char c[] = "aAeEoOtTlL";
+	char num[] = "4433007711";
+
+	i = 0;
 	while (s[i] != '\0')
 	{
-		for (j = 0; j < 5; j++)
+		j = 0;
+		while (c[j] != '\0')
 		{
-			if (s[i] == SL[i] || s[i] == CL[i])
+			if (s[i] == c[j])
 			{
 				s[i] = num[i];
-				break;
 			}
+			j++;
 		}
 		i++;
 	}
