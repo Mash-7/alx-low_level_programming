@@ -15,7 +15,7 @@ int primeCheck(int num, int i)
 	if (num == i)
 		return (1);
 
-	return (0 + primeCheck(num, i + 1));
+	return (primeCheck(num, i + 1));
 }
 
 /**
@@ -27,6 +27,8 @@ int primeCheck(int num, int i)
  */
 int is_prime_number(int n)
 {
+	int i = 2;
+
 	if (n == 0)
 		return (0);
 
@@ -34,5 +36,5 @@ int is_prime_number(int n)
 		return (0);
 	if (n == 1)
 		return (0);
-	return (primeCheck(n, 2));
+	return (primeCheck(n, i));
 }
