@@ -3,7 +3,7 @@
 /**
  * primeCheck - Determines whether the input value is a prime number.
  * @num: Input value.
- * @i: Iteration
+ * @i: divisor
  * Return: If num is a prime number, return 1.
  * If num is not a prime number, return 0.
  */
@@ -27,8 +27,6 @@ int primeCheck(int num, int i)
  */
 int is_prime_number(int n)
 {
-	int i = 2;
-
 	if (n == 0)
 		return (0);
 
@@ -36,5 +34,5 @@ int is_prime_number(int n)
 		return (0);
 	if (n == 1)
 		return (0);
-	return (primeCheck(n, i));
+	return (primeCheck(n, 2));
 }
