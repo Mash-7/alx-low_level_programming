@@ -12,7 +12,7 @@ int primeCheck(int num, int i)
 	if (num % i == 0)
 		return (0);
 
-	if (num == i)
+	if (i == num / 2)
 		return (1);
 
 	return (primeCheck(num, i + 1));
