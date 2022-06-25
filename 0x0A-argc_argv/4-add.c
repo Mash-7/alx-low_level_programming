@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 
 /**
  * main - Adds positive numbers, followed by a new line.
  * @argc: The number of command line arguments.
- * @argv: Array that containsthe program command line arguments.
+ * @argv: Array that contains the program command line arguments.
  *
  * Return: If one of the numbers contains symbols that are not digits, 1.
  * If no number is passed to the program, 0, followed by a new line
