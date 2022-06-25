@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - Adds positive numbers, followed by a new line.
@@ -17,7 +18,7 @@ int main(int argc, char *argv[])
 	{
 		for (d = 0; argv[i][d]; d++)
 		{
-			if (argv[i][d] < '0' || argv[n][d] > '9')
+			if (argv[i][d] < '0' || argv[i][d] > '9')
 			{
 				printf("Error\n");
 				return (1);
