@@ -3,8 +3,6 @@ global main
 extern printf
 
 main:
-push rbp
-
 mov edi,fmt
 mov esi,msg
 mov eax, 0
