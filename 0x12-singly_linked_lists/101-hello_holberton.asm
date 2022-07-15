@@ -7,10 +7,10 @@ push rbp
 
 mov edi,fmt
 mov esi,msg
-mov eax,0
+mov eax, 0
 call printf
 
-mov eax,0
+mov eax, 0
 ret
 
 section .data
