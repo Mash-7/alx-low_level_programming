@@ -1,7 +1,6 @@
-extern printf
-
 section .text
-global main
+global maini
+extern printf
 
 main:
 push rbp
