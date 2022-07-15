@@ -1,5 +1,5 @@
 section .text
-global maini
+global main
 extern printf
 
 main:
